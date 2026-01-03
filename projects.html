@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Portfolio</title>
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/theme.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">MyPortfolio</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="dark" title="Dark"></button>
+        <button class="theme-btn" data-theme="light" title="Light"></button>
+        <button class="theme-btn" data-theme="purple" title="Purple"></button>
+        <button class="theme-btn" data-theme="green" title="Green"></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects-section">
+    <div class="container">
+      <h1 class="section-title">My Projects</h1>
+      <p class="section-subtitle">Explore a mix of Frontend and Data Analytics work.</p>
+
+      <!-- Filter Buttons -->
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="data">Data Analytics</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="project-grid">
+        <div class="project-card" data-type="frontend">
+          <img src="assets/portfolio-thumb.jpg" alt="Portfolio Preview" class="project-img" />
+          <div class="project-content">
+            <h3>Personal Portfolio</h3>
+            <p>A modern, responsive personal website with theme switcher.</p>
+            <span class="tech">HTML / CSS / JS</span>
+            <div class="links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-type="frontend">
+          <img src="assets/weather-thumb.jpg" alt="Weather App" class="project-img" />
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>Vanilla JS app fetching live data from a weather API.</p>
+            <span class="tech">HTML / CSS / JS / API</span>
+            <div class="links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-type="data">
+          <img src="assets/dashboard-thumb.jpg" alt="Sales Dashboard" class="project-img" />
+          <div class="project-content">
+            <h3>Sales Dashboard</h3>
+            <p>Analyzed sales data to find trends and visualize KPIs.</p>
+            <span class="tech">Power BI / SQL / Excel</span>
+            <div class="links">
+              <a href="#" target="_blank">Case Study</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-type="data">
+          <img src="assets/segmentation-thumb.jpg" alt="Customer Segmentation" class="project-img" />
+          <div class="project-content">
+            <h3>Customer Segmentation</h3>
+            <p>Used Python and Pandas to identify customer groups by behavior.</p>
+            <span class="tech">Python / Pandas / Power BI</span>
+            <div class="links">
+              <a href="#" target="_blank">Report</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Your Name. Built with ❤️ using HTML, CSS & JS.</p>
+    </div>
+  </footer>
+</body>
+</html>
