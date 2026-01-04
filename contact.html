@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <script defer src="js/theme.js"></script>
   <script defer src="js/script.js"></script>
 </head>
@@ -32,37 +32,41 @@
 
   <!-- ===== CONTACT SECTION ===== -->
   <section class="contact">
-    <div class="container">
+    <div class="container contact-wrapper">
       <h1>Contact Me</h1>
-      <p class="section-subtitle">
-        Let’s collaborate! Feel free to reach out using the form below.
-      </p>
+      <p class="section-subtitle">Let’s collaborate! Feel free to reach out using the form below.</p>
 
-      <form id="contact-form">
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Enter your name" required />
-        </div>
+      <form
+  action="mailto:manzarbit@gmail.com"
+  method="POST"
+  enctype="text/plain"
+  class="contact-form"
+>
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+  </div>
 
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" placeholder="Enter your email" required />
-        </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+  </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
-        </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+  </div>
 
-        <button type="submit" class="btn primary-btn">Send Message</button>
-      </form>
+  <button type="submit" class="btn primary-btn">Send Message</button>
+</form>
+
 
       <div class="social-section">
         <h3>Connect with me</h3>
         <div class="social-links">
-          <a href="#" target="_blank">GitHub</a>
-          <a href="#" target="_blank">LinkedIn</a>
-          <a href="mailto:youremail@example.com">Email</a>
+          <a href="https://github.com/ManzarGIT" class="social-btn github" target="_blank">GitHub</a>
+          <a href="www.linkedin.com/in/md-manzar-ansari" class="social-btn linkedin" target="_blank">LinkedIn</a>
+          <a href="mailto:manzarbit@gmail.com" class="social-btn email">Email</a>
         </div>
       </div>
     </div>
@@ -71,7 +75,7 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Your Name. Built with ❤️ using HTML, CSS & JS.</p>
+      <p>© 2026 Manzar. Built with ❤️ using HTML, CSS & JS.</p>
     </div>
   </footer>
 </body>

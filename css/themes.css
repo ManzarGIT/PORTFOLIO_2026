@@ -1,16 +1,16 @@
 body[data-theme="light"],
 body:not([data-theme]) {
-  --background: #ffffff;
+  --background: #d0e22f;
   --text: #111111;
   --accent: #007bff;
-  --card: #f5f7fa;
+  --card: #1cc5db;
 }
 
 body[data-theme="dark"] {
-  --background: #0d0d0d;
+  --background: #0b1e97;
   --text: #f1f1f1;
   --accent: #00ffff;
-  --card: #1a1a1a;
+  --card: #db10c0;
 }
 
 body[data-theme="purple"] {
@@ -27,7 +27,7 @@ body[data-theme="green"] {
   --card: #002b00;
 }
 
-.theme-btn[data-theme="light"] { background: #ffffff; }
+.theme-btn[data-theme="light"] { background: #d0e22f; }
 .theme-btn[data-theme="dark"] { background: #0b1e97; }
 .theme-btn[data-theme="purple"] { background: linear-gradient(135deg, #6a0dad, #b266ff); }
 .theme-btn[data-theme="green"] { background: #00ff99; }

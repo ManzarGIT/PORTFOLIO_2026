@@ -31,77 +31,120 @@
   </header>
 
   <!-- ===== HERO SECTION ===== -->
-  <section class="hero" id="hero">
-    <div class="container hero-content">
-      <h1>Hi, I'm <span class="accent">Manzar Ansari</span></h1>
-      <h2>Frontend Developer & Data Analyst</h2>
-      <p>Crafting clean interfaces and turning data into insights.</p>
-      <div class="hero-buttons">
-        <a href="projects.html" class="btn primary-btn">View Projects</a>
-        <a href="resume/resume.pdf" download class="btn secondary-btn">Download Resume</a>
-      </div>
+  <!-- ===== HERO SECTION ===== -->
+<section class="hero">
+  <div class="container hero-content">
+
+    <!-- Profile Image -->
+    <div class="profile-pic">
+      <img src="assets/Profile.jpg" alt="Manzar Ansari Profile Picture" />
     </div>
-  </section>
+
+    <h1>Hi, I'm <span class="highlight">Manzar Ansari</span></h1>
+    <h2>Frontend Developer & Data Analyst</h2>
+    <p>Crafting clean interfaces and turning data into insights.</p>
+
+    <div class="hero-buttons">
+      <a href="projects.html" class="btn primary-btn">View Projects</a>
+      <a href="assets/Manzar_Resume.pdf" class="btn outline-btn" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
 
   <!-- ===== ABOUT PREVIEW ===== -->
-  <section class="about-preview" id="about">
-    <div class="container about-content">
-      <h2>About Me</h2>
-      <p>
-        I’m a tech enthusiast passionate about building intuitive web experiences
-        and uncovering data-driven insights. With a background in both frontend
-        development and data analytics, I bring creativity and logic together to
-        solve real-world problems.
-      </p>
-      <a href="about.html" class="btn">Read More</a>
-    </div>
-  </section>
+  <!-- ===== ABOUT SECTION ===== -->
+<section class="about">
+  <div class="container about-card">
+    <h2>About Me</h2>
+    <p>
+      I’m a tech enthusiast passionate about building intuitive web experiences and uncovering data-driven insights.
+      With a background in both frontend development and data analytics, I bring creativity and logic together
+      to solve real-world problems.
+    </p>
+    <a href="about.html" class="btn-link">Read More</a>
+  </div>
+</section>
+
 
   <!-- ===== FEATURED PROJECTS ===== -->
-  <section class="projects-preview" id="projects">
-    <div class="container">
-      <h2>Featured Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>Portfolio Website</h3>
-          <p>A responsive personal portfolio built with pure HTML, CSS, and JS.</p>
-          <span class="tech">HTML / CSS / JS</span>
-          <div class="links">
-            <a href="#" target="_blank">Live Demo</a>
-            <a href="#" target="_blank">GitHub</a>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3>Weather App</h3>
-          <p>A simple weather dashboard fetching live data from an API.</p>
-          <span class="tech">JavaScript / API / CSS</span>
-          <div class="links">
-            <a href="#" target="_blank">Live Demo</a>
-            <a href="#" target="_blank">GitHub</a>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3>Sales Dashboard</h3>
-          <p>Analyzed business performance using Power BI & SQL queries.</p>
+  <!-- ===== FEATURED PROJECTS ===== -->
+<section class="featured-projects">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project-card-grid">
+
+      <!-- Superstore Sales Analysis -->
+      <div class="home-project-card">
+        <img src="assets/superstore-cover.jpg" alt="Superstore Sales Dashboard" />
+        <div class="project-info">
+          <h3>Superstore Sales Analysis</h3>
+          <p>From raw data to an interactive Power BI dashboard revealing regional and category insights.</p>
           <span class="tech">Power BI / SQL / Excel</span>
           <div class="links">
-            <a href="#" target="_blank">Case Study</a>
+            <a href="projects/superstore.html" target="_blank">Case Study</a>
             <a href="#" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
-      <a href="projects.html" class="btn">See All Projects</a>
+
+      <!-- Pizza Sales Analysis -->
+      <div class="home-project-card">
+        <img src="assets/pizza-cover.jpg" alt="Pizza Sales Analysis" />
+        <div class="project-info">
+          <h3>Pizza Sales Analysis</h3>
+          <p>SQL-based data analysis to explore order trends, top-selling pizzas, and customer behavior.</p>
+          <span class="tech">SQL / Excel / Power BI</span>
+          <div class="links">
+            <a href="projects/pizza.html" target="_blank">Case Study</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Olympic Data Analysis -->
+      <div class="home-project-card">
+        <img src="assets/olympic-cover.avif" alt="Olympic Data Analysis" />
+        <div class="project-info">
+          <h3>Olympic Data Analysis</h3>
+          <p>Analyzing Olympic medal trends using Python, Pandas, and NumPy to uncover performance insights.</p>
+          <span class="tech">Python / Pandas / NumPy</span>
+          <div class="links">
+            <a href="projects/olympic.html" target="_blank">Case Study</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spotify Dashboard Analysis -->
+      <div class="home-project-card">
+        <img src="assets/spotify-cover.png" alt="Spotify Dashboard" />
+        <div class="project-info">
+          <h3>Spotify Dashboard Analysis</h3>
+          <p>Exploring streaming trends and artist performance through a Power BI interactive dashboard.</p>
+          <span class="tech">Power BI / Data Visualization</span>
+          <div class="links">
+            <a href="projects/spotify.html" target="_blank">Case Study</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+
+    <a href="projects.html" class="see-all">See All Projects</a>
+  </div>
+</section>
+
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Your Name. Built with ❤️ using HTML, CSS & JS.</p>
+      <p>© 2026 Manzar. Built with ❤️ using HTML, CSS & JS.</p>
       <div class="social-links">
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="mailto:youremail@example.com">Email</a>
+        <a href="https://github.com/ManzarGIT" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/md-manzar-ansari/" target="_blank">LinkedIn</a>
+        <a href="mailto:Manzarbit@gmail.com">Email</a>
       </div>
     </div>
   </footer>

@@ -22,88 +22,85 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="theme-switcher">
-        <button class="theme-btn" data-theme="dark" title="Dark"></button>
-        <button class="theme-btn" data-theme="light" title="Light"></button>
-        <button class="theme-btn" data-theme="purple" title="Purple"></button>
-        <button class="theme-btn" data-theme="green" title="Green"></button>
+        <button class="theme-btn" data-theme="dark"></button>
+        <button class="theme-btn" data-theme="light"></button>
+        <button class="theme-btn" data-theme="purple"></button>
+        <button class="theme-btn" data-theme="green"></button>
       </div>
     </div>
   </header>
 
-  <!-- ===== PROJECTS ===== -->
+  <!-- ===== PROJECTS SECTION ===== -->
   <section class="projects-section">
     <div class="container">
       <h1 class="section-title">My Projects</h1>
-      <p class="section-subtitle">Explore a mix of Frontend and Data Analytics work.</p>
+      <p class="section-subtitle">A collection of my data analytics and frontend projects.</p>
 
-      <!-- Filter Buttons -->
-      <div class="filter-controls">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="frontend">Frontend</button>
-        <button class="filter-btn" data-filter="data">Data Analytics</button>
-      </div>
-
-      <!-- Projects Grid -->
       <div class="project-grid">
-        <div class="project-card" data-type="frontend">
-          <img src="assets/portfolio-thumb.jpg" alt="Portfolio Preview" class="project-img" />
+
+        <!-- Superstore Sales Analysis -->
+        <div class="project-card">
+          <img src="assets/superstore-cover.jpg" alt="Superstore Dashboard" class="project-img" />
           <div class="project-content">
-            <h3>Personal Portfolio</h3>
-            <p>A modern, responsive personal website with theme switcher.</p>
-            <span class="tech">HTML / CSS / JS</span>
+            <h3>Superstore Sales Analysis</h3>
+            <p>From raw data to Power BI dashboard revealing regional sales and profit insights.</p>
+            <span class="tech">Power BI / SQL / Data Cleaning</span>
             <div class="links">
-              <a href="#" target="_blank">Live Demo</a>
+              <a href="projects/superstore.html" target="_blank">Case Study</a>
               <a href="#" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
 
-        <div class="project-card" data-type="frontend">
-          <img src="assets/weather-thumb.jpg" alt="Weather App" class="project-img" />
+        <!-- Pizza Sales Analysis -->
+        <div class="project-card">
+          <img src="assets/pizza-cover.jpg" alt="Pizza Sales Project" class="project-img" />
           <div class="project-content">
-            <h3>Weather App</h3>
-            <p>Vanilla JS app fetching live data from a weather API.</p>
-            <span class="tech">HTML / CSS / JS / API</span>
+            <h3>Pizza Sales Analysis</h3>
+            <p>SQL-based exploration of pizza order trends, revenue, and customer preferences.</p>
+            <span class="tech">SQL / Excel / Power BI</span>
             <div class="links">
-              <a href="#" target="_blank">Live Demo</a>
+              <a href="projects/pizza.html" target="_blank">Case Study</a>
               <a href="#" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
 
-        <div class="project-card" data-type="data">
-          <img src="assets/dashboard-thumb.jpg" alt="Sales Dashboard" class="project-img" />
+        <!-- Olympic Data Analysis -->
+        <div class="project-card">
+          <img src="assets/olympic-cover.avif" alt="Olympic Data Analysis" class="project-img" />
           <div class="project-content">
-            <h3>Sales Dashboard</h3>
-            <p>Analyzed sales data to find trends and visualize KPIs.</p>
-            <span class="tech">Power BI / SQL / Excel</span>
+            <h3>Olympic Data Analysis</h3>
+            <p>Python-powered analysis of Olympic medal tallies using NumPy and Pandas.</p>
+            <span class="tech">Python / Pandas / NumPy</span>
             <div class="links">
-              <a href="#" target="_blank">Case Study</a>
+              <a href="projects/olympic.html" target="_blank">Case Study</a>
               <a href="#" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
 
-        <div class="project-card" data-type="data">
-          <img src="assets/segmentation-thumb.jpg" alt="Customer Segmentation" class="project-img" />
+        <!-- Spotify Dashboard Analysis -->
+        <div class="project-card">
+          <img src="assets/spotify-cover.png" alt="Spotify Dashboard" class="project-img" />
           <div class="project-content">
-            <h3>Customer Segmentation</h3>
-            <p>Used Python and Pandas to identify customer groups by behavior.</p>
-            <span class="tech">Python / Pandas / Power BI</span>
+            <h3>Spotify Dashboard Analysis</h3>
+            <p>Analyzed streaming data to reveal music trends and artist performance metrics.</p>
+            <span class="tech">Power BI / Data Visualization</span>
             <div class="links">
-              <a href="#" target="_blank">Report</a>
+              <a href="projects/spotify.html" target="_blank">Case Study</a>
               <a href="#" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Your Name. Built with ❤️ using HTML, CSS & JS.</p>
+      <p>© 2026 Manzar. Built with ❤️ using HTML, CSS & JS.</p>
     </div>
   </footer>
 </body>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olympic Data Analysis</title>
+  <link rel="stylesheet" href="../css/themes.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script defer src="../js/theme.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="../index.html" class="logo">MyPortfolio</a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html" class="active">Projects</a>
+      </nav>
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="dark"></button>
+        <button class="theme-btn" data-theme="light"></button>
+        <button class="theme-btn" data-theme="purple"></button>
+        <button class="theme-btn" data-theme="green"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="project-container container">
+    <h1>Olympic Data Analysis</h1>
+    <p class="subtitle">Analyzing medal tallies using Python, Pandas & NumPy.</p>
+
+    <section class="project-section">
+      <h2>1. Challenge & Data</h2>
+      <p>
+        Used athlete_events.csv and noc_regions.csv to examine Olympic performance trends across countries and years.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>2. Data Preparation</h2>
+      <ul>
+        <li>Handled missing values and standardized country names.</li>
+        <li>Removed duplicates and added new metrics (total medals, gold ratio).</li>
+      </ul>
+    </section>
+
+    <section class="project-section">
+      <h2>3. Analysis</h2>
+      <p>
+        Grouped by year and country to rank nations, find top medalists, and chart medal trends.
+        USA dominated overall; host nations often outperformed average.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>4. Outcome</h2>
+      <p>
+        Pandas + NumPy delivered fast medal analysis and Matplotlib visualizations—bar charts, line plots, stacked graphs—highlighting historical trends.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
